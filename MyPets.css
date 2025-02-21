@@ -1,0 +1,15 @@
+main {
+  background: linear-gradient(
+    rgb(251, 174, 255),
+    rgb(255, 205, 205),
+    rgb(174, 228, 255),
+    rgb(255, 169, 201),
+    rgb(233, 196, 255)
+  );
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}

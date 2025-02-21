@@ -1,0 +1,23 @@
+main {
+    background: linear-gradient(
+      rgb(0, 217, 255),
+      rgb(47, 133, 255),
+      rgb(0, 13, 255),
+      rgb(180, 20, 255),
+      rgb(255, 0, 238)
+    );
+    height: 100vh;
+    width: 100vw;
+  }
+  h1 {
+    text-align: center;
+    font-size: 70px;
+    background-clip: text;
+    color: transparent;
+    background-image: -webkit-linear-gradient(
+      90deg,
+      rgb(247, 255, 135),
+      rgb(158, 116, 255),
+      rgb(171, 255, 175)
+    );
+  }

@@ -1,0 +1,47 @@
+H1 {
+  color: rgba(152, 212, 255, 0.913);
+  width: fit-content;
+}
+body {
+  background: linear-gradient(
+    rgb(255, 241, 243),
+    rgb(223, 252, 255),
+    rgb(255, 236, 255),
+    rgb(255, 204, 204),
+    rgb(255, 254, 254)
+  );
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+table {
+  border: 3px rgb(216, 196, 255) dashed;
+  width: 85%;
+}
+td {
+  border: 3px rgb(255, 206, 255) dashed;
+  padding: 15px;
+  color: rgb(181, 116, 255);
+  font-size: 25px;
+}
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+th {
+  color: transparent;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgb(255, 170, 242),
+    rgb(150, 141, 255),
+    rgb(255, 192, 225),
+    rgb(187, 168, 255),
+    rgb(93, 252, 255),
+    rgb(223, 159, 255)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}

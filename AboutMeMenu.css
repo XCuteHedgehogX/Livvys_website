@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  background: linear-gradient(
+    rgb(250, 249, 255),
+    rgb(255, 207, 249),
+    rgb(186, 211, 255),
+    rgb(183, 163, 255),
+    rgb(255, 152, 243)
+  );
+  height: 100vh;
+}
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  background-clip: text;
+  color: transparent;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(213, 135, 255),
+    rgb(116, 243, 255),
+    rgb(254, 171, 255)
+  );
+}
+li{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  display: flex;
+
+}
+li::before {
+  content:"◌ ";
+  color: #5d6bff;
+  font-size: 38px;
+  margin-right:10px;
+
+
+}
+a {
+  text-decoration: wavy underline rgb(213, 165, 255);
+  color: #ff9af1;
+  filter:drop-shadow(3px 1px 1px rgb(255, 255, 255));
+}

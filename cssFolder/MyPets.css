@@ -1,15 +1,37 @@
 main {
   background: linear-gradient(
-    rgb(251, 174, 255),
-    rgb(255, 205, 205),
-    rgb(174, 228, 255),
-    rgb(255, 169, 201),
-    rgb(233, 196, 255)
+    rgb(255, 142, 210),
+    rgb(143, 188, 255),
+    rgb(207, 239, 255),
+    rgb(249, 206, 255),
+    rgb(178, 139, 255),
+    rgb(255, 142, 210),
+    rgb(143, 188, 255),
+    rgb(207, 239, 255),
+    rgb(249, 206, 255),
+    rgb(178, 139, 255),
+    rgb(255, 142, 210),
+    rgb(143, 188, 255),
+    rgb(207, 239, 255),
+    rgb(249, 206, 255),
+    rgb(178, 139, 255),
+    rgb(255, 142, 210),
+    rgb(143, 188, 255),
+    rgb(207, 239, 255),
+    rgb(249, 206, 255),
+    rgb(178, 139, 255)
   );
-  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 100vh;
   width: 100vw;
+  
 }
 body {
   height: 100vh;
   width: 100vw;
+}
+.Dogpic {
+  width: 100%;
 }

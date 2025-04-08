@@ -97,14 +97,14 @@ li {
   color: rgb(85, 215, 255);
 }
 .MotherInfo {
-  background-image: url(love.png);
+  background-image: url(/imagesFolder/love.png);
 }
 .OtherInfo {
-  background-image: url(loveflipped.png);
+  background-image: url(/imagesFolder/loveflipped.png);
   background-size: 58%;
 }
 .MiddleSisterInfo {
-  background-image: url(paws.png);
+  background-image: url(/imagesFolder/paws.png);
 }
 @media (max-width: 768px) {
   a {

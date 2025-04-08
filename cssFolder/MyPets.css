@@ -33,5 +33,9 @@ body {
   width: 100vw;
 }
 .Dogpic {
+  max-width: 100%;
+  
+}
+.DogsInfo {
   width: 100%;
 }

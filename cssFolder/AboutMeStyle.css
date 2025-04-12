@@ -19,7 +19,7 @@ table {
   width: 85%;
 }
 td {
-  border: 3px rgb(255, 206, 255) dashed;
+  border: 3px rgb(255, 206, 255) dashed ; 
   padding: 15px;
   color: rgb(181, 116, 255);
   font-size: 25px;
